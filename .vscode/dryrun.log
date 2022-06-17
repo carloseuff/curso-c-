@@ -1,6 +1,6 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'd:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-'
-make: Leaving directory 'd:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-'
+make: Entering directory 'd:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-/curso-c--2'
+make: Leaving directory 'd:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-/curso-c--2'
  
 make: *** No targets specified and no makefile found.  Stop.
 

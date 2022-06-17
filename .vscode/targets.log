@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 16 10:31:13 2022
+# Make data base, printed on Fri Jun 17 15:08:05 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ USERPROFILE = C:\Users\CGTI
 # environment
 LOCALAPPDATA = C:\Users\CGTI\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-38702b4d-f64c-465d-8cb4-7b148453b8a7-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-37e16a34-01f1-4811-a445-3405d1a9bfbd-sock
 # environment
 VSCODE_CWD = C:\Users\CGTI\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -37,7 +37,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16352_IQKZHKJCKDQBDCSG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10544_RZCTDUDZNBHNHHVU
 # environment
 ONEDRIVECOMMERCIAL = D:\ONE DRIVE\CARLOS.EDUARDO\OneDrive - ifro.edu.br
 # environment
@@ -71,7 +71,7 @@ ONEDRIVE = D:\ONE DRIVE\CARLOS.EDUARDO\OneDrive - ifro.edu.br
 # environment
 POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro for Workstations
 # makefile
-CURDIR := d:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-
+CURDIR := d:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-/curso-c--2
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -95,7 +95,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16352
+VSCODE_PID = 10544
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -133,6 +133,8 @@ MAKE = $(MAKE_COMMAND)
 # environment
 PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files\PuTTY\;D:\msys64\mingw64\bin;C:\Users\CGTI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Users\CGTI\AppData\Local\Microsoft\WindowsApps;C:\Users\CGTI\AppData\Local\Programs\Microsoft VS Code\bin;D:\msys64\mingw64\bin
 # environment
+ZES_ENABLE_SYSMAN = 1
+# environment
 COMPUTERNAME = JRU_WORK_CGTI
 # default
 MAKEFILES := 
@@ -164,8 +166,6 @@ USERDOMAIN = JRU_WORK_CGTI
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -207,8 +207,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine onesh 
-ell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 REGIONCODE = LA
 # environment
@@ -224,9 +223,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-, mtime 1655389872): 37 files, no impossibilities.
+# . (key d:/ONE DRIVE/CARLOS.EDUARDO/OneDrive - ifro.edu.br/CARLOS.EDUARDO/MESTRADO - UFF X COMPUTA��O/DISCIPLINAS/2022.1/ESTRUTURA DE DADOS/C++/curso-c-/curso-c--2, mtime 1655477416): 32 files, no impossibilities.
 
-# 37 files, no impossibilities in 1 directories.
+# 32 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -283,12 +282,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 44 / storage = 226 B / avg = 5 B
-# current buf: size = 8162 B / used = 226 B / count = 44 / avg = 5 B
+# strcache buffers: 1 (0) / strings = 39 / storage = 305 B / avg = 7 B
+# current buf: size = 8162 B / used = 305 B / count = 39 / avg = 7 B
 
-# strcache performance: lookups = 47 / hit rate = 6%
+# strcache performance: lookups = 42 / hit rate = 7%
 # hash-table stats:
-# Load=44/8192=1%, Rehash=0, Collisions=0/47=0%
-# Finished Make data base on Thu Jun 16 10:31:13 2022
+# Load=39/8192=0%, Rehash=0, Collisions=0/42=0%
+# Finished Make data base on Fri Jun 17 15:08:05 2022
 
  
