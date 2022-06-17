@@ -6,8 +6,7 @@ int main()
 
     std::queue<char> fila1;  //{10,11,13,15,19,21};
     std::queue<char> fila2; //={'E','D','U','A','R','D','O'};
-    // int i; //tam1, tam2;
-
+    
     fila1.push('S');
     fila1.push('A');
     fila1.push('N');

@@ -13,6 +13,8 @@ PilhaTAD = requires(Agregado a, Tipo t)
     {a.desempilha()};
 };
 constexpr int MAXN = 100'000; // capacidade máxima da pilha
+
+
 class PilhaSeq1
 {
 public:

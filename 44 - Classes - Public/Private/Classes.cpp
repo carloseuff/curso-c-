@@ -5,7 +5,6 @@ using namespace std;
 class objeto01
 {
 private:
-
 public:
 
 int vlr=0, vlr_unit=0, estoque=0;
