@@ -3,7 +3,7 @@
 
 using namespace std;
 
-constexpr int MAXN = 100000; // capacidade máxima da fila
+constexpr int MAXN = 5; // capacidade máxima da fila
 
 class FilaSeq2
 {
@@ -20,7 +20,7 @@ public:
         this->inicio = 0;
         this->fim = 0;
     }
-    void libera(){} // nenhum recurso dinâmico para desalocar
+    void libera() {} // nenhum recurso dinâmico para desalocar
 
     char frente()
     {
@@ -51,17 +51,24 @@ int main()
     p->enfileira('B');
     p->enfileira('C');
 
-    std::cout << p->frente();
-    std::cout << p->desenfileira();
+    // std::cout << p->frente();
+    // std::cout << p->desenfileira();
 
     p->enfileira('D');
-
+    p->enfileira('E');
+    p->enfileira('F');
+    p->enfileira('G');
+    p->enfileira('I');
+    
+   
     while (p->N > 0)
     {
-        cout << p->desenfileira();
+        cout <<"\nFrente da Fila..........:" << p->desenfileira();
+        cout <<"\nProxima Frente da Fila..:" << p->frente()<<"\n";
+        //p->N--;
     }
 
-    // p->libera();
+    p->libera();
 
     return 0;
 }
