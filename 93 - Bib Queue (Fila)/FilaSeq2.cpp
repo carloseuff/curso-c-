@@ -8,45 +8,38 @@ constexpr int MAXN = 100000; // capacidade máxima da fila
 class FilaSeq2
 {
 private:
-
 public:
-
     char elementos[MAXN];
     int N;
     int inicio;
     int fim;
-    void cria(){...};
-    void libera(){...};
-    char frente(){...};
-    void enfileira(char dado){...};
-    char desenfileira(){...};
-};
 
-void cria()
-{
-    this->N = 0;
-    this->inicio = 0;
-    this->fim = 0;
-}
-char frente()
-{
-    return this->elementos[inicio];
-}
-void enfileira(char dado)
-{
-    this->elementos[fim] = dado;
-    this->fim++;
-    this->N++;
-}
-char desenfileira()
-{
-    char r = this->elementos[inicio];
-    this->inicio++;
-    this->N--;
-    return r;
-}
-void libera(){ // nenhum recurso dinâmico para desalocar 
-}
+    void cria()
+    {
+        this->N = 0;
+        this->inicio = 0;
+        this->fim = 0;
+    }
+    void libera(){} // nenhum recurso dinâmico para desalocar
+
+    char frente()
+    {
+        return this->elementos[inicio];
+    }
+    void enfileira(char dado)
+    {
+        this->elementos[fim] = dado;
+        this->fim++;
+        this->N++;
+    }
+    char desenfileira()
+    {
+        char r = this->elementos[inicio];
+        this->inicio++;
+        this->N--;
+        return r;
+    }
+};
 
 int main()
 {
@@ -61,7 +54,7 @@ int main()
     std::cout << p->frente();
     std::cout << p->desenfileira();
 
-    // p->enfileira('D');
+    p->enfileira('D');
 
     while (p->N > 0)
     {
