@@ -7,7 +7,7 @@ using namespace std;
 class Heap1
 {
 public:
-    char elementos[MAXN];
+    int elementos[MAXN];
     int N;
 
     void cria()
@@ -111,7 +111,7 @@ int main()
     h->insere(10);
     h->insere(30);
     //cout << h->frente() << endl;
-    h->constroi_sobe(15);
+    h->constroi_sobe(21);
     //h->insere(5);
     //h->insere(11);
 
